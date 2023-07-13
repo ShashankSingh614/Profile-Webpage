@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="E:\Shashank Singh\Web Development\css\form.css">
+    <style>
+        body{
+                background-image: url("background.jpg");
+            }
+    </style>
+</head>
+<body>
+
+        <form action="/submit-form" target="_blank" method="post">
+            <div class="align-enquiry">
+                <div class="align">
+                    <h4 class="Enquiry-Form" style="font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(0, 0, 0); text-align: left; padding-left: 5%;">Enquiry</h4>
+                </div>
+            </div>
+
+                <div class="combine">
+                    <div class="block">
+                        <div class="align">
+                            <h4 class="heading" style="font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(0, 0, 0); text-align: left; padding-left: 5%;">Personal Information</h4>
+                            <br>
+                            <div class="content">
+                                <label for="name" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                    Name:
+                                    <input id="name" autocomplete="name" size="50px" placeholder="Enter Your Name" required />
+                                </label>
+
+                                <br><br>
+
+                                <label for="address" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                Address:
+                                <input id="address" type="text" size="60px" placeholder="Enter Your Permanent Address" required/>
+                                </label>
+                            
+                                <br><br>
+
+                                <label for="date_of_birth" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                Date of Birth:
+                                <input id="date_of_birth" type="date" required />
+                                </label>
+
+                                <br><br>
+
+                                <label for="Professional" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                Select your Professional:
+                                <br>
+                                <label for="student" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                        <input  id="student" name="radio" type="radio" />
+                                        Student
+                                    </label>
+                                    <label for="teacher" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                    <input  id="teacher" name="radio" type="radio" />
+                                    Teacher
+                                    </label>
+                                    <label for="coorperative" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                        <input id="coorperative" name="radio" type="radio" />
+                                            Coorperative
+                                </label>
+                                    <label for="other" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                    <input id="other" name="radio" type="radio" />
+                                        Other
+                                    </label>
+                                    <br>
+                                    <label for="other_specify" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                        If other then please specify it:
+                                        <input id="other_specify" type="text" />
+                                    </label>
+                                </label>
+                                <br><br>
+                                <label for="qualification" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                    Qualification:
+                                    <input id="qualification" type="text" placeholder="Enter Your Qualification" required/>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <br><br>
+
+                    <div class="block">
+                        <div class="align">
+                        <h4 class="heading" style="font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(0, 0, 0); text-align: left; padding-left: 5%;">Contact Information</h4>
+                        <br>
+                            <div class="content">
+                                <label for="WhatsApp_Number" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                    WhatsApp Number:
+                                    <input type="tel" placeholder="Enter phone number" required maxlength="10" max="10"/>
+                                </label>
+                            
+                                <br><br>
+                            
+                                <label for="Email_id" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                    Email Id:
+                                    <input id="Email_id" type="email" size="50px" placeholder="example@gmail.com" required/>
+                                </label>
+                            
+                                <br><br>
+                            
+                                <label for="Github_id" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                    Github Id:
+                                    <input id="Github_id" type="url" size="50px" placeholder="https://www.github.com/example" required />
+                                </label>
+                            
+                                <br><br>
+            
+                                <label for="Linkedln_id" style="font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                                    Linkedln Id:
+                                    <input id="Linkedln_id" type="url" size="50px" placeholder="https://www.linkedin.com/example" required/>
+                                </label>
+                        
+                            </div>
+                        </div>
+                    </div>
+                        <br><br>
+                </div>
+
+                <div class="div-3">
+                        <div class="form-content">
+                            <a href="E:\Shashank Singh\Web Development\main\thankyou.html"><div class="heading-align"><h4 class="submit-heading" style="font-size: 20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(0, 0, 0); text-align: center;">Submit</h4></div></a>
+                        </div>
+                </div>
+        </form>
+
+</body>
+</html>
